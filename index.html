@@ -1,0 +1,90 @@
+<!-- Assignment Week 1, Submitted by Salim Awal-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+
+    <!-- Header & Nav -->
+    <header>
+        <h1>Salim Awal</h1>
+        <h2>Portfolio</h2>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About & Skills Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>A passionate and aspiring BIT student and web developer. Focued on building accessible, clean and standards compliant web projects.</p>
+            <img src="Images/profile-picture-of-salim-awal.jpeg" alt="Profile picture of Salim Awal smiling in a professional setting">
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <dl>    
+                <dt>HTML Basics</dt>
+                <dd>Structuring web pages with headings, paragraphs, lists, and links.</dd>
+                <dt>Basic CSS Styling</dt>
+                <dd>Applying simple colors, fonts, and box layouts to web elements.</dd>
+                <dt>File Management</dt>
+                <dd>Organizing project directories, image assets, and relative file paths.</dd>
+            </dl>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            
+            <article>
+                <h3>Library Management System</h3>
+                <p>A console-based application built to track book inventories, member's checkouts, and overdue fines using object-oriented principles.</p>
+                <p><a href="https://github.com/example/library-system" target="_blank">View Repository</a></p>
+            </article>
+
+            <article>
+                <h3>Weather Dashboard</h3>
+                <p>A web application that fetches real-time meteorological data from a public API and displays forecasts dynamically.</p>
+                <p><a href="https://github.com/example/weather-dashboard" target="_blank">View Repository</a></p>
+            </article>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Salim Awal. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
